@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { '作者名' => '1064124945@qq.com' }
   s.platform     = :ios, '12.0'        # 支持的最低系统版本
-  s.source       = { :git => 'https://github.com/yuanlairubi2016/Test.git', :tag => s.version }  # 源码地址
+  s.source       = { :git => 'https://github.com/yuanlairubi2016/ppf-sdk-import.git', :tag => s.version }  # 源码地址
   s.static_framework = true
   s.vendored_frameworks = 'Test/DuDuSDK.xcframework'  # 预编译框架路径
 
